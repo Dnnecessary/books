@@ -39,7 +39,7 @@ git commit -m '描述内容'
 
 
 >  git remote add origin https://github.com/babyhai/library.git
- git push -u origin master
+>  git push -u origin master
 
 
 ```
