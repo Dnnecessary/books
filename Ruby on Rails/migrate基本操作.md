@@ -15,20 +15,20 @@ development:
 
 对应的migration：
 class CreateUsers < ActiveRecord::Migration[5.0]
-    def up
-      create_table :users do |t|
-        t.string :title
-        t.string :name
-        t.string :age
-        t.string :maed
-        end
-        end
-
-
-    def down
-      drop_table :users
+  def up
+    create_table :users do |t|
+      t.string :title
+      t.string :name
+      t.string :age
+      t.string :maed
     end
   end
+
+
+  def down
+    drop_table :users
+  end
+end
 ```
 
 
